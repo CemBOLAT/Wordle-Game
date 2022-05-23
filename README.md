@@ -11,3 +11,8 @@ Wordle Game for 5 letter English words
 # -Tutorial Page
 
 <img src="https://github.com/CemBOLAT/Wordle-Game/blob/master/images/tutorial-page.png?raw=true">
+
+# -Animations
+
+<video src="https://user-images.githubusercontent.com/103999323/169882680-83ff146d-8a68-4cd5-9a17-4bc2af949fca.mp4"></video>
+
