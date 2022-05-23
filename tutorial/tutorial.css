@@ -1,0 +1,92 @@
+:root{
+    color-scheme: dark;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+#title{
+    text-align: center;
+}
+#outline{
+    height: 700px;
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    display: none;
+    width: 80vh;
+    padding: 2vh;
+    justify-content: center;
+}
+#titleSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro{
+    font-size: 18px;
+}
+#firstEx,#secondEx,#thirdEx{
+    flex-wrap: wrap;
+    display: flex;
+}
+.fEx{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    border: 1px solid white;
+    background-color: #555;
+    padding: 15px;
+}
+.green{
+    background-color: rgb(59, 236, 59);
+}
+.yellow{
+    background-color: gold;
+}
+.wrong{
+    background-color: #333;
+}
+.greyBox{
+    background-color: grey !important;
+}
+.yellowBox{
+    background-color: rgb(226, 149, 34)!important;
+}
+.greenBox{
+    background-color: rgba(52, 138, 52, 0.932) !important;
+}
+#iconBut{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    background-color: #555;
+    border-radius: 15px;
+}
+#warnComment{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 1px;
+    position: relative;
+    bottom: 30px;
+}
+
+.tutorialHr{
+    background-color: white;
+    height: 1px;
+}
+#firstPart{
+    display: grid;
+    grid-template-rows: 50px 50px 30px 30px;
+}
+#outline-container{
+    display: flex;
+    justify-content: center;
+}
