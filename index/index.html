@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="/NavBar/navBar.css" type="text/css">
+    <link rel="stylesheet" href="/tutorial/tutorial.css" type="text/css">
+
+    <meta name="author" content="Cemal Bolat">
+    <meta name="description" content="wordleGame">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="icon" href="/images/indir (1).png" type="image/x-icon">
+</head>
+<body>
+    <div id="index-container">
+        <div id="navigationBar">
+            <div class="navBar" id="leftNavBar">
+                <ul>
+                    <li>
+                        <a id="barButton" class="navItem"><ion-icon class="icon" name="ellipsis-vertical-outline"></ion-icon></a>
+                    </li>
+                    <li><a id="tutorialButton" class="navItem" target="_blank"><ion-icon class="icon" name="help-circle-outline"></ion-icon></a></li>
+                </ul>
+            </div>
+            <div id="title">
+                <section>
+                    <h1>WORDLE</h1>
+                </section>
+            </div>
+            <div class="navBar" id="rightNavBar">
+                <ul>
+                    <li><a class="navItem"><ion-icon class="icon" name="stats-chart-outline"></ion-icon></ion-icon></a></li>
+                    <li><a class="navItem"><ion-icon class="icon" name="settings-outline" ></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <div id="message-box-container">
+            <div id="message-box"></div>
+        </div>
+        <div id="bar">
+            <div id="headerBar">
+                <div id="leftHeader">
+                    <ul>
+                        <li><a class="navItem barIcon" href="https://www.nytimes.com/crosswords"><ion-icon name="game-controller-outline"></ion-icon></a></li>
+                        <li><hr></li>
+                        <li><a class="navItem barIcon" href="https://www.nytimes.com/crosswords">Games</li>
+                    </ul>
+                </div>
+                <div id="rightHeader">
+                    <a class="navItem barIcon" id="closeBar"><ion-icon name="close-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div id="barComment">
+                <p>MORE FROM NEW YORK TIMES GAMES</p>
+            </div>
+            <div id="iconsBoxes">
+                <div class="boxes">
+                    <div class="written">
+                        <a class="link" href="https://www.nytimes.com/puzzles/spelling-bee?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav">Spelling Bee</a>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="written">
+                        <a class="link" href="https://www.nytimes.com/crosswords/game/daily?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav">The Crossword</a>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="written">
+                        <a class="link" href="https://www.nytimes.com/crosswords/game/mini?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav">The Mini</a>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="written">
+                        <a class="link" href="https://www.nytimes.com/column/wordplay?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav">Gameplay Stories</a>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="written">
+                        <a class="link" href="https://www.nytimes.com/crosswords">More Games</a>
+                    </div>
+                </div>
+                <p class="rightBoxHr"></p>
+                <div class="boxes">
+                    <div class="written">
+                        <a class="link" href="https://www.nytimes.com/?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav">The New York Times</a>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="written">
+                        <a class="link" href="https://cooking.nytimes.com/">The New York Cooking</a>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="written">
+                        <a class="link" href="https://www.nytimes.com/wirecutter/?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav">The New York Wirecutter</a>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="written">
+                        <a class="link" href="https://theathletic.com/?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav">The Atletic</a>
+                    </div>
+                </div>
+                <div class="rightBoxHr"></div>
+                <div id="footerBar"><p id="footerSentenceBar">Privacy Policy</p></div>
+            </div>
+        </div>
+        <div id="game-box">
+            <div id="tile-container"></div>
+            <div id="key-container"></div>
+            <footer id="footerLink">&gt;&gt;&gt;&copy; <a target="_blank" href="https://github.com/CemBOLAT/CemBOLAT">Cemal BOLAT</a> &lt;&lt;&lt;</footer>
+        </div>
+    </div>
+    <div id="outline-container">
+        <div id="outline">
+            <div id="titleSec">
+                <p></p>
+                <h1 id="title">How To Play</h1>
+                <a id="tutorialCloseButton"><span id="iconBut"><ion-icon name="close-outline"></ion-icon></span></a>
+            </div>
+            <div id="firstPart">
+                <p class="intro">Guess the <b>WORDLE </b>in six tries</p>
+                <p class="intro">Each guess must be a valid five-letter word. Hit the enter button to submit.</p>
+                <p class="intro">After each guess, the color of the tiles will change to show how close your guess was to the word.</p>
+            </div>
+            <div class="tutorialHr"></div>
+            <div id="examples">
+                <p><b>Examples:</b></p>
+                <div id="firstEx">
+                    <div class="fEx green"><b>W</b></div>
+                    <div class="fEx"><b>E</b></div>
+                    <div class="fEx"><b>A</b></div>
+                    <div class="fEx"><b>R</b></div>
+                    <div class="fEx"><b>Y</b></div>
+                </div>
+            </div>
+            <p class="intro">The letter <b>W</b>  is in the word and in the correct spot</p>
+            <div id="secondEx">
+                <div class="fEx"><b>P</b></div>
+                <div class="fEx yellow"><b>I</b></div>
+                <div class="fEx"><b>L</b></div>
+                <div class="fEx"><b>L</b></div>
+                <div class="fEx"><b>S</b></div>
+            </div>
+            <p class="intro">The letter <b>I</b> is in the word but in the wrong spot.</p>
+            <div id="secondEx">
+                <div class="fEx"><b>V</b></div>
+                <div class="fEx"><b>A</b></div>
+                <div class="fEx"><b>G</b></div>
+                <div class="fEx wrong"><b>U</b></div>
+                <div class="fEx"><b>E</b></div>
+            </div>
+            <p class="intro">The letter <b>U</b> is not in the word in any spot.</p>
+            <div class="tutorialHr"></div>
+            <div>
+                <section>
+                    <h1 style="font-size: 25px;">A new WORDLE will be available each day!</h1>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="/tutorial/tutorial.js"></script>
+    <script src="/api.js"></script>
+    <script src="./app.js"></script>
+    <script src="/NavBar/navBar.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
