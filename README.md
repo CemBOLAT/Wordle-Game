@@ -5,6 +5,12 @@ Wordle Game for 5 letter English words
 <li><a href="https://rapidapi.com/sheharyar566/api/random-words5/">Random Words</a></li>
 <li><a href="https://rapidapi.com/twinword/api/word-dictionary/">Word Dictionary</a></li>
 
+# Steps for Backend
+<li>npm i</li>
+<li>npm i axios cors express nodemon</li>
+<li>npm i dotenv</li>
+<li>npm run start:backend</li>
+
 # -Index Page
 <img src="https://github.com/CemBOLAT/Wordle-Game/blob/master/images/index-page.png?raw=true">
 
